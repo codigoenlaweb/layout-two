@@ -39,9 +39,10 @@ $font2: 'Bebas Neue', cursive;
     display: grid;
     width: 100%;
     grid-template-columns: 80% 20%;
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
     grid-template-areas: 
     'header header'
+    'letters letters'
     'main aside'
     'footer footer';
     margin: 0px auto;
@@ -91,9 +92,10 @@ $font2: 'Bebas Neue', cursive;
 @media screen and(max-width: 500px){
     .body1{
         grid-template-columns: 100%;
-        grid-template-rows: repeat(4, auto);
+        grid-template-rows: repeat(5, auto);
         grid-template-areas: 
         'header'
+        'letters'
         'main'
         'aside'
         'footer';
@@ -132,4 +134,8 @@ $font2: 'Bebas Neue', cursive;
 
 .footer{
     grid-area: footer;
+}
+
+.letters{
+    grid-area: letters;
 }
