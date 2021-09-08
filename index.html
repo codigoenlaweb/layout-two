@@ -23,9 +23,45 @@
     <main class="main">
       <p>main</p>
     </main>
+
     <aside class="aside">
-      <p>aside</p>
+      <h3 class="aside__h3">BUSCAR</h3>
+      <form class="aside__form" action="">
+        <input class="form__search" type="search" name="search" id="search">
+        <input class="form__search-submit" type="submit" value="">
+      </form>
+
+      <h3 class="aside__h3">LOGIN</h3>
+      <div class="aside__div">
+        <form class="aside__form" action="">
+          <Label><img  class="aside__form-img aside__form-img--1" src="img/person.svg" alt="persona"></Label>
+          <input class="aside__form-input" type="text" name="name" id="name">
+
+          <Label><img class="aside__form-img aside__form-img--2" src="img/lock.svg" alt="persona"></Label>
+          <input class="aside__form-input" type="password" name="password" id="pwassword">
+
+          <input class="aside__button" type="submit" value="Enviar">
+          <input class="aside__button" type="reset" value="Limpiar">
+        </form>
+
+        <ul class="aside__div-ul">
+          <li class="aside__div-ul-li"><a class="aside__div-ul-li-a" href="">Registrate aqui</a></li>
+          <li class="aside__div-ul-li"><a class="aside__div-ul-li-a" href="">Has olvidado tu contraseña?</a></li>
+        </ul>
+      </div>
+
+      <h3 class="aside__h3">Redes Sociales</h3>
+      <div class="aside__div aside__div--social">
+        <ul class="aside__div-ul">
+          <li class="aside__div-ul-li"><a href="#"><img class="aside__div-ul-li-img" src="img/twitter.svg" alt="twitter"></a></li>
+          <li class="aside__div-ul-li"><a href="#"><img class="aside__div-ul-li-img" src="img/facebook.svg" alt="facebook"></a></li>
+          <li class="aside__div-ul-li"><a href="#"><img class="aside__div-ul-li-img" src="img/googleplus.svg" alt="googleplus"></a></li>
+          <li class="aside__div-ul-li"><a href="#"><img class="aside__div-ul-li-img" src="img/youtube.svg" alt="youtube"></a></li>
+        </ul>
+      </div>
+      
     </aside>
+
     <footer class="footer">
       <p>footer</p>
     </footer>
