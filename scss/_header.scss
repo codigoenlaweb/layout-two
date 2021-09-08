@@ -32,6 +32,11 @@
     letter-spacing: 3px;
 }
 
+.nav__div-logo:hover .nav__img{
+    animation: rotate 0.4s 2 linear;
+}
+
+
 .nav__img{
     height: 32px;
     width: auto;
@@ -85,7 +90,7 @@
 
 .header__h1{
     text-align: center;
-    margin-top: 26px;
+    margin: 26px 0px 10px 0px;
     font-family: $font1;
     color: white;
     height: 100px;
@@ -95,4 +100,74 @@
     background-position: -264px -212px;
     border: 7px solid white;
     @include shadow1();
+}
+
+.letters{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 85%;
+    padding-bottom: 20px;
+}
+
+.letters__div{
+    display: flex;
+    width: 175px;
+    height: 250px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin: 0px 10px;
+    margin-top: 28px;
+    background-color: white;
+    @include shadow2(rgba(99, 99, 99, 0.7));
+    transition: 0.3s all;
+}
+
+.letters__div-img{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.letters__div-h3{
+    padding: 0px 5px 0px 5px;
+    margin-top: 22px;
+    color: $color3;
+    transition: 0.3s all;
+}
+
+.letters__div-p{
+    padding: 0px 5px 0px 5px;
+    margin-top: 18px;
+    color: $color4;
+    transition: 0.3s all;
+}
+
+.letters__div:hover{
+    transform: scale(1.08);
+    border-radius: 3px;
+    @include shadow1();
+    background-color: #37bbf91a;
+}
+
+.letters__div:hover .letters__div-img{
+    animation: rotate 0.5s 1 linear;
+}
+
+.letters__div:hover .letters__div-h3{
+    font-size: 24px;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
 }
