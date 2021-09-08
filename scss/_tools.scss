@@ -2,8 +2,8 @@
         * shadow *
 ========================== */
 
-@mixin shadow1($color) {
-    box-shadow: 0 0 10px $color;
+@mixin shadow1() {
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
 @mixin shadow2($color) {

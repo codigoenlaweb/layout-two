@@ -24,9 +24,9 @@ img{
 ========================== */
 
 $color1: #37BCF9;
-$color2: #393D3F;
+$color2: #2e2e2e;
 $color3: #0C67A0;
-$color4: #0d7bc0;
+$color4: #1893e0;
 
 $font1: 'Nunito', sans-serif;
 $font2: 'Bebas Neue', cursive;
@@ -38,6 +38,7 @@ $font2: 'Bebas Neue', cursive;
 .body1{
     display: grid;
     width: 100%;
+    background-image: url(../img/pattern.png);
     grid-template-columns: 80% 20%;
     grid-template-rows: repeat(4, auto);
     grid-template-areas: 
