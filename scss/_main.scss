@@ -6,11 +6,11 @@
 }
 
 .main__h2{
-    width: 79%;
+    width: 80%;
     margin-top: 5px;
     margin-bottom: 34px;
     font-family: $font2;
-    font-size: 30px;
+    font-size: 34px;
     text-align: center;
     letter-spacing: 2.5px;
     background-image: url(../img/pxgray.png);
@@ -21,7 +21,7 @@
 .main__section{
     display: flex;
     flex-wrap: wrap;
-    width: 78%;
+    width: 79%;
     border: 1px solid rgba(204, 204, 204, 0.5);
     @include shadow4();
     position: relative;

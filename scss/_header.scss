@@ -22,7 +22,7 @@
     height: 45px;
     width: 160px;
     background-color: $color1;
-    margin-left: 9%;
+    margin-left: 7%;
     transition: 0.3s;
 }
 
@@ -65,7 +65,7 @@
 .nav__ul{
     display: flex;
     justify-content: space-between;
-    margin-right: 9%;
+    margin-right: 7%;
     width: 420px;
     margin-top: 4px;
 }
@@ -89,15 +89,16 @@
 }
 
 .header__h1{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 26px 0px 10px 0px;
     font-family: $font1;
     color: white;
     height: 100px;
-    width: 84%;
-    line-height: 94px;
+    width: 88%;
     background-image: url(../img/bakbaner.png);
-    background-position: -264px -212px;
+    background-position: -90px -218px;
     border: 7px solid white;
     @include shadow1();
 }
@@ -109,7 +110,7 @@
     margin: 0px auto;
     margin-top: 20px;
     margin-bottom: 24px;
-    width: 90%;
+    width: 88%;
     padding-bottom: 20px;
 }
 
