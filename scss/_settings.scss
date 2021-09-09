@@ -39,7 +39,7 @@ $font2: 'Bebas Neue', cursive;
     display: grid;
     width: 100%;
     background-image: url(../img/pattern.png);
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 75% 25%;
     grid-template-rows: repeat(4, auto);
     grid-template-areas: 
     'header header'

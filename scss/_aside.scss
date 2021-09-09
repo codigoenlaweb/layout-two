@@ -3,11 +3,13 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    width: 78%;
 }
 
 .aside__h3{
-    width: 74%;
+    width: 100%;
     margin-bottom: 18px;
+    margin-top: 8px;
     font-family: $font2;
     font-size: 25px;
     letter-spacing: 2.5px;
@@ -17,6 +19,7 @@
 }
 
 .aside__form{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -24,8 +27,8 @@
 }
 
 .form__search{
-    height: 26px;
-    width: 88%;
+    width: 80%;
+    height: 29px;
     border: 1px solid #ccc;
     border-radius: 5px 0px 0px 5px;
     color: gray;
@@ -39,11 +42,10 @@
 }
 
 .form__search-submit{
-    display: block;
     background-image: url(../img/search.svg);
     background-color: white;
     background-repeat: no-repeat;
-    height: 26px;
+    height: 29px;
     width: 26px;
     border: 1px solid #ccc;
     border-left: none;
@@ -51,7 +53,7 @@
 }
 
 .aside__div{
-    width: 65%;
+    width: 92%;
     position: relative;
     @include shadow3();
     border: 1px solid rgba(150, 150, 150, 0.664);
@@ -64,31 +66,33 @@
 .aside__form-input{
     width: 94%;
     margin-bottom: 14px;
+    margin-top: 5px;
     border: 1px solid #ccc;
-    height: 24px;
+    height: 32px;
+    font-size: 23px;
     border-radius: 5px;
     box-shadow: 0px -1px 3px rgb(138, 138, 138);
-    padding-left: 24px;
+    padding-left: 26px;
 }
 
 .aside__form-img{
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     position: absolute;
     top: 0px;
     left: 0px;
 }
 
 .aside__form-img--1{
-    top: 19px;
-    left: 5px;
+    top: 27px;
+    left: 7px;
 }
 
 .aside__form-img--2{
-    top: 60px;
-    left: 5px;
-    height: 21px;
-    width: 25px;
+    top: 80px;
+    left: 7px;
+    height: 26px;
+    width: 29px;
 }
 
 .aside__button{
@@ -116,6 +120,7 @@
     color: black;
     text-decoration: none;
     transition: 0.2s all;
+    font-size: 20px;
 }
 
 .aside__div-ul-li-a:hover{

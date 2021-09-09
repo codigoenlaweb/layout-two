@@ -22,7 +22,7 @@
     height: 45px;
     width: 160px;
     background-color: $color1;
-    margin-left: 8%;
+    margin-left: 9%;
     transition: 0.3s;
 }
 
@@ -65,7 +65,7 @@
 .nav__ul{
     display: flex;
     justify-content: space-between;
-    margin-right: 10%;
+    margin-right: 9%;
     width: 420px;
     margin-top: 4px;
 }
@@ -78,7 +78,7 @@
 .nav__ul-li-a{
     text-decoration: none;
     color: white;
-    font-size: 24px;
+    font-size: 28px;
     letter-spacing: 1px;
     font-family: $font2;
 }
@@ -109,14 +109,14 @@
     margin: 0px auto;
     margin-top: 20px;
     margin-bottom: 24px;
-    width: 85%;
+    width: 90%;
     padding-bottom: 20px;
 }
 
 .letters__div{
     display: flex;
-    width: 175px;
-    height: 250px;
+    width: 205px;
+    height: 280px;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
@@ -139,12 +139,14 @@
     margin-top: 22px;
     color: $color3;
     transition: 0.3s all;
+    font-size: 22px;
 }
 
 .letters__div-p{
     padding: 0px 5px 0px 5px;
-    margin-top: 18px;
+    margin-top: 24px;
     color: $color4;
+    font-size: 18px;
     transition: 0.3s all;
 }
 
@@ -160,7 +162,7 @@
 }
 
 .letters__div:hover .letters__div-h3{
-    font-size: 24px;
+    font-size: 25px;
 }
 
 @keyframes rotate {
