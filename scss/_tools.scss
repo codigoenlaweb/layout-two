@@ -10,8 +10,8 @@
     box-shadow: 0 0 4px $color;
 }
 
-@mixin shadow3($color) {
-    box-shadow: 5px 5px 10px $color;
+@mixin shadow3() {
+  box-shadow: 0 5px 6px rgba(115,115,115,0.75);
 }
 
 @mixin shadow4($color) {
