@@ -90,15 +90,15 @@ $font2: 'Bebas Neue', cursive;
 }
 
 /* Small Size For Phone */
-@media screen and(max-width: 500px){
+@media screen and(max-width: 740px){
     .body1{
         grid-template-columns: 100%;
         grid-template-rows: repeat(5, auto);
         grid-template-areas: 
         'header'
         'letters'
-        'main'
         'aside'
+        'main'
         'footer';
     }
     
